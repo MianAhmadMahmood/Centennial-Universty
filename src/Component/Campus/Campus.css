@@ -1,0 +1,68 @@
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .gallery img {
+    width: 23%;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Add some space between images */
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn img {
+    margin-left: 10px;
+    width: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 800px) {
+    .gallery img {
+      width: 48%;
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .gallery img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+    }
+  
+    .btn img {
+      width: 24px;
+    }
+  }
+  
